@@ -1,0 +1,9 @@
+@"
+.env
+**/.env
+**/venv/
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+backend/db.sqlite3
+"@ | Set-Content .gitignore
